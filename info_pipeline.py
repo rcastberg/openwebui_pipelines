@@ -1,6 +1,7 @@
 from typing import List, Union, Generator, Iterator
 from schemas import OpenAIChatMessage
 import subprocess
+from pydantic import BaseModel
 
 
 class Pipeline:
